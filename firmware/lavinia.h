@@ -19,12 +19,7 @@
 #ifndef ADAFRUIT_NEOPIXEL_H
 #define ADAFRUIT_NEOPIXEL_H
 
-#if (ARDUINO >= 100)
- #include <Arduino.h>
-#else
- #include <WProgram.h>
- #include <pins_arduino.h>
-#endif
+#include <Arduino.h>
 
 // 'type' flags for LED pixels (third parameter to constructor):
 #define NEO_RGB     0x00 // Wired for RGB data order
